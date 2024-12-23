@@ -453,11 +453,11 @@ workflow RAREDISEASE {
 
     }
 
-    snv_vcf = ANNOTATE_GENOME_SNVS.out.vcf_ann
+    /*snv_vcf = ANNOTATE_GENOME_SNVS.out.vcf_ann
     mt_vcf = ANNOTATE_MT_SNVS.out.vcf_ann
 
     CSVTK_CONCAT (snv_vcf,mt_vcf)
-    TABIX_TABIX_SNV_MITO (CSVTK_CONCAT.out.tab)
+    TABIX_TABIX_SNV_MITO (CSVTK_CONCAT.out.tab) */
 
     //
     // MODULE: Pipeline reporting
